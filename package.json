@@ -1,17 +1,17 @@
 {
-  "name": "woo-cli",
+  "name": "forme-cli",
   "version": "1.0.0",
   "description": "front-end cli",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/huangWenT/woo-cli.git"
+    "url": "https://gitee.com/huangWenT/forme-cli.git"
   },
   "license": "ISC",
   "author": "huangwentao",
   "type": "commonjs",
   "main": "dist/index.js",
   "bin": {
-    "woo": "dist/index.js"
+    "forme": "dist/index.js"
   },
   "scripts": {
     "build": "tsup"
