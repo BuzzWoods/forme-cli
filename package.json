@@ -1,0 +1,29 @@
+{
+  "name": "woo-cli",
+  "version": "1.0.0",
+  "description": "front-end cli",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/huangWenT/woo-cli.git"
+  },
+  "license": "ISC",
+  "author": "huangwentao",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "bin": {
+    "woo": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "tsup": "^8.5.0"
+  },
+  "dependencies": {
+    "commander": "^14.0.1",
+    "fs-extra": "^11.3.2",
+    "picocolors": "^1.1.1",
+    "typescript": "^5.9.3"
+  }
+}
