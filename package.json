@@ -14,7 +14,8 @@
     "forme": "dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "tamplates"
   ],
   "scripts": {
     "build": "tsup",
