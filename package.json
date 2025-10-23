@@ -13,8 +13,14 @@
   "bin": {
     "forme": "dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "publish:patch": "npm run build && npm version patch && npm publish --access public",
+    "publish:minor": "npm run build && npm version minor && npm publish --access public",
+    "publish:major": "npm run build && npm version major && npm publish --access public"
   },
   "devDependencies": {
     "@types/node": "^24.9.1",
